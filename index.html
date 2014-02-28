@@ -1,13 +1,252 @@
+
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta
-http-equiv="Refresh"
-content="0; url=http://www.makebu.org">
-<title>Redirecting To Our New Page</title>
+    <title>LA HACKS | The Hackathon of the West Coast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="West Coast biggest collegiate hackathon!">
+    <meta name="author" content="LA Hacks"> 
+  	<script src="js/jquery-1.7.2.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="image_src" href="https://s3-us-west-1.amazonaws.com/lahacks/mainLogoUpdated.png"  />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+	<script type="text/javascript" src="js/index.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">    
+    <link rel="shortcut icon" href="https://s3-us-west-1.amazonaws.com/lahacks/favicon.png">
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->      
+
+  <meta property="og:image" content="https://s3-us-west-1.amazonaws.com/lahacks/mainLogoUpdated.png">
+
 </head>
 <body>
-In a few seconds you will be redirected to our new page. If not,
-just <a href="http://www.example.com/newpage.html">click on this
-link to go to our new page.</a>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1444350292466115";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Navbar -->
+	<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+    		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+          	</a>
+          	<a class="brand scroller" data-section="html" href="index.html"><img alt="" src="img/logo.gif" width="40" height="40"> MAKE_BU </a>
+		  	<div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="#" class="scroller" data-section="#about">INFORMATION</a></li>
+                    <li><a href="#" class="scroller" data-section="#sponsors">SPONSORS</a></li>
+                </ul>
+	        </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Navbar -->
+    
+    
+    <!-- #intro -->
+	<div class="main-container">
+		<div class="container-fluid" id="intro">	
+			<div class="containerIntro">
+				<div class = "thumbnail">
+					<img alt="" src="img/logo.gif" width="300" height="300">
+				</div>
+				<div class="row span6 center">
+						<h1> March 21-22</h1>
+              
+				</div>
+                <div id="signup-container"> 
+                    <form method="post" action="/subscribe" id="signup">
+                        <div class="row">
+                            <div class="span5">
+                                <input type="email" placeholder="Email" value="" name="email" class="signForm">
+                            </div>
+                            <div class="span1">
+                                <input type="submit" value="Register" name="sign up" class="signUpButton">
+                            </div>
+                        </div>
+                    </form>
+				<div id="signup-finished" class="hidden" style="display:none">
+					<div class="span 5 center">
+						<h3>Got it! We'll be in touch soon!</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <!-- ends Intro -->
+
+     <!-- #about -->
+<div class="container-fluid" id="about">
+	<div class="container light">
+
+		<h1>Information</h1>
+		<ul class="thumbnails">
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <img alt="" src="img/clock.png">
+		      <h3>24 Hour Competition</h3>
+		      <p>We'll provide all your meals, snacks, caffeine, swag and sleeping spaces.</p>
+		    </div>
+		  </li>
+		
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <img alt="" src="http://s3-us-west-1.amazonaws.com/lahacks/plane.png">
+		      <h3>Education-oriented</h3>
+		      <p>We'll have lectures on web apps, mobile, and hardware.</p>
+		    </div>
+		  </li>
+		  
+		  <li class="span3">
+		    <div class="thumbnail">
+		       <img alt="" src="img/package.png">
+		      <h3>Free Stuff</h3>
+		      <p>Free food and swag for the duration of the hackathon.</p>
+		    </div>
+		  </li>
+		  <li class="span3">
+		    <div class="thumbnail">
+		       <img alt="" src="http://s3-us-west-1.amazonaws.com/lahacks/person.png">
+		      <h3>Great Facilities</br></h3>
+		      <p>All events take place at EPIC and GCB, right on campus!</p>
+		    </div>
+		  </li>
+		</ul>
+	</div>
+	<hr>
+	<div class="container light">
+		<h1>FAQ</h1>
+		<ul class="thumbnails">
+	<!-- BEGIN SECOND ROW -->		
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>What is a hackathon?</h4>
+		      <h5></h5>
+		    </div>
+		  </li>
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>Who can attend?</h4>
+		      <h5> </h5>
+		    </div>
+		  </li>
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>How much does it cost to attend?</h4>
+		      <h5></h5>
+		    </div>
+		  </li>
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>What can my team build?</h4>
+		      <h5> </h5>
+		    </div>
+		  </li>
+	<!-- END SECOND ROW -->
+	<!-- BEGIN THIRD ROW -->
+		  <li class="span12">
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>How big are teams?</h4>
+		      <h5></h5>
+		    </div>
+		  </li>
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>Are we allowed to build on past projects or code?</h4>
+		      <h5></h5>
+		    </div>
+		  </li>
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>What should I bring?</h4>
+		      <h5></h5>
+		    </div>
+		  </li>
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <h4>How do I officially register?</h4>
+		      <h5></h5>
+		    </div>
+		  </li>
+		  </li>
+		
+		</ul>
+	<hr>
+</div>
+
+<div class="container-fluid" id="sponsors">
+		<div class="container light">
+		
+			<h1>Previous Sponsors</h1>
+
+
+     <div style="clear:both;"></div>
+     </div>
+     <hr>
+</div>
+     <!-- ends About -->
+     
+     
+      <!-- #team  -->
+<div class="container-fluid" id="orgPart">
+	<div class="container light">
+		<h1>Organized By</h1>
+				
+				
+		</div>
+	</div>
+</div>
+
+<script>
+$(function () {
+    $(window).scroll(function(){
+    // global scroll to top button
+        if ($(this).scrollTop() > 300) {
+            $('.scrolltop').fadeIn();
+        } else {
+            $('.scrolltop').fadeOut();
+        }        
+    });
+    
+    // scroll nav
+    $('.scroller').click(function(){
+    	var section = $($(this).data("section"));
+    	var top = section.offset().top-82;
+        $("html, body").animate({ scrollTop: top }, 700);
+        return false;
+    });          
+  });
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47497883-1', 'lahacks.com');
+  ga('send', 'pageview');
+</script>
+
 </body>
 </html>
