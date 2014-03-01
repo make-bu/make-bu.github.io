@@ -110,7 +110,6 @@ h3 {
 
 #about {
 	padding-top: 20px;
-	background:#fff;
 }
 #about p {
 	font-size: 16px;
@@ -119,7 +118,11 @@ h3 {
 #team {
 	background:#fff;
 }
-#orgPart {
+#info {
+	background:#fff;
+}
+#faq {
+	background:#fff;
 }
 #sponsors {
 	background: #fff;
