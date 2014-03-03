@@ -92,7 +92,7 @@ h3 {
 	margin-top:100px;
 	text-align:center;
 	min-height:750px;
-	padding:0 0 50px;
+	padding:0 0 10px;
 	
 }
 
@@ -109,6 +109,7 @@ h3 {
 }
 
 #about {
+	background: #fff;
 	padding-top: 20px;
 }
 #about p {
@@ -563,4 +564,20 @@ h3 {
 .logo {
 	width:250px;
 	margin:20px;
+}
+
+.containerIntro {
+	padding-top: 20px;
+}
+
+div.thumbnail {
+	padding-bottom: 20px;
+}
+
+#info {
+
+}
+
+#faq {
+
 }
