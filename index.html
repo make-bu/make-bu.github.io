@@ -53,21 +53,21 @@
 		  <li class="span3">
 		    <div class="thumbnail">
 		      <h3>24 Hours</h3>
-		      <p>We'll provide snacks and caffeine.</p>
+		      <p>Stay up all night or sleep when you want (you probably won't want to!)</p>
 		    </div>
 		  </li>
 		
 		  <li class="span3">
 		    <div class="thumbnail">
 		      <h3>Educational</h3>
-		      <p>We'll have lectures on web apps, mobile, and hardware.</p>
+		      <p>We'll have informal lectures on a number of topics, including web-, mobile-, and hardware-based development.</p>
 		    </div>
 		  </li>
 		  
 		  <li class="span3">
 		    <div class="thumbnail">
 		      <h3>Free Stuff</h3>
-		      <p>Free food and swag for the duration of the hackathon.</p>
+		      <p>Free food, caffeine and swag for the duration of the hackathon.</p>
 		    </div>
 		  </li>
 		  <li class="span3">
@@ -85,19 +85,19 @@
 		      <h4>What is a hackathon?</h4>
 		      <h5>A weekend collaborative competition to build something. 
 		      Join with a team and build a web, mobile, hardware, or physical product. More 
-		      <a href="https://medium.com/hackathons-anonymous/92668579601">here</a></h5>
+		      <a href="https://medium.com/hackathons-anonymous/92668579601">here</a>.</h5>
 		    </div>
 		  </li>
 		  <li class="span3">
 		    <div class="thumbnail">
 		      <h4>Who can attend?</h4>
-		      <h5>Any BU student or alumni (bring your id!). It'll be open to any student in the future.</h5>
+		      <h5>Any BU student or alumni (bring your BUID!). It'll be open to any student in the future.</h5>
 		    </div>
 		  </li>
 		  <li class="span3">
 		    <div class="thumbnail">
-		      <h4>How much does it cost to attend?</h4>
-		      <h5>Free! But you have to make something.</h5>
+		      <h4>Why should I come?</h4>
+		      <h5>You can learn new, practical skills, and get help from our student mentors. You'll meet other hackers and have lots of fun! And of course you can brag about your project to employers and friends.</h5>
 		    </div>
 		  </li>
 		  <li class="span3">
@@ -157,25 +157,18 @@
 </div>
      <!-- ends About -->
 
-<script>
-$(function () {
-    $(window).scroll(function(){
-    // global scroll to top button
-        if ($(this).scrollTop() > 300) {
-            $('.scrolltop').fadeIn();
-        } else {
-            $('.scrolltop').fadeOut();
-        }        
-    });
-    
-    // scroll nav
-    $('.scroller').click(function(){
-    	var section = $($(this).data("section"));
-    	var top = section.offset().top-82;
-        $("html, body").animate({ scrollTop: top }, 700);
-        return false;
-    });          
-  });
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-48579927-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 
 </body>
