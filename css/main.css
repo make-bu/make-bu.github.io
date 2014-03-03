@@ -135,6 +135,9 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 600px;
 }
 
 
@@ -543,51 +546,6 @@ h3 {
     float: none;
 }
 
-/* SIGN UP FORM */
-@media (max-width: 767px) {
-.signForm {
-    font-family: raleway;
-    font-size: 17px;
-    padding: 10px 9px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    background: rgba(255, 255, 255, 0.65);
-    
-    width: 80%;
-    border: 2px solid rgba(255,255,255, .75);
-    color: black;
-    margin: 10px 0px;
-}
-}
-@media (min-width: 767px) {
-.signForm {
-    font-family: raleway;
-    font-size: 17px;
-    padding: 10px 9px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    background: rgba(255, 255, 255, 0.65);
-    
-    width: 100%;
-    border: 2px solid rgba(255,255,255, .75);
-    color: black;
-    margin: 10px 0px;
-}
-}
-.signUpButton {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    background: rgba(0,0,0,0.83);
-    border: 2px solid white;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px 16px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    margin:10px 5px;
-}
 .fbclass{
     padding-top: 0px;
 }
@@ -600,4 +558,9 @@ h3 {
 }
 #signup-finished h3 {
     color: white;
+}
+
+.logo {
+	width:250px;
+	margin:20px;
 }

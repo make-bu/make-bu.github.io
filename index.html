@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <meta name="description" content="BU Hackathon">
     <meta name="author" content="Make_BU"> 
-  	<script src="js/jquery-1.7.2.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-	<script type="text/javascript" src="js/bootstrap.min.js"></script> 
-	<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script> 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">    
@@ -21,15 +19,6 @@
   <![endif]-->      
 </head>
 <body>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1444350292466115";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
   <!-- Navbar -->
 	<div class="navbar navbar-fixed-top">
@@ -42,10 +31,6 @@
           	</a>
           	<a class="brand scroller" data-section="html" href="index.html"><img alt="" src="img/make_bu.png" width="40" height="40"> MAKE_BU </a>
 		  	<div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                    <li><a href="#" class="scroller" data-section="#about">INFORMATION</a></li>
-                    <li><a href="#" class="scroller" data-section="#sponsors">SPONSORS</a></li>
-                </ul>
 	        </div>
         </div>
       </div>
@@ -168,31 +153,28 @@
 		    </div>
 		  </li>
 		  </li>
+
+		  <li class="span12">
+		  		<h1>Sponsored By</h1>
+					<a href="http://www.bu.edu/ece/"><img src="img/ece.gif" id="ece"></a>
+			</li>
+
+			<li class="span12">
+				<h1>Organized By</h1>	
+				<li class="span4">
+					<a href="http://builds.cc/"><img src="img/builds.png" class="logo" style="margin-top: 115px;"></a>
+				</li>
+				<li class="span4">
+					<a href="http://globalappinitiative.org/"><img src="img/GAI-logo.png" class="logo"></a>
+				</li>
+				<li class="span4">
+					<a href="http://www.bucec.org/"><img src="img/ce++.png" class="logo"></a>
+				</li>
 		
 		</ul>
 	<hr>
 </div>
      <!-- ends About -->
-     
-     
-      <!-- #team  -->
-<div class="container-fluid" id="orgPart">
-	<div class="container light">
-		<h1 style="color: #fff">Sponsored By</h1>
-				
-			<img src="http://www.bu.edu/ece/files/signature-white.png" id="ece">	
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid" id="orgPart">
-	<div class="container light">
-		<h1 style="color: #fff">Organized By</h1>
-				
-			<img src="http://www.bu.edu/ece/files/signature-white.png" id="ece">	
-		</div>
-	</div>
-</div>
 
 <script>
 $(function () {
@@ -213,19 +195,6 @@ $(function () {
         return false;
     });          
   });
-</script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-</script>
-
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-47497883-1', 'lahacks.com');
-  ga('send', 'pageview');
 </script>
 
 </body>
