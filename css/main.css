@@ -1,5 +1,10 @@
 /* Setup Styles  */
 
+td {
+	font-size: 18px;
+	padding-bottom: 10px;
+	padding-right:20px;
+}
 
 input::-webkit-input-placeholder { /* WebKit browsers */
         color:    #000000;
