@@ -28,13 +28,13 @@ body {
 }
 
 a, a:visited{color:#d54872;
-	
+
 	-webkit-transition:all .1s linear;
 	-moz-transition:all .1s linear;
 	-ms-transition:all .1s linear;
 	-o-transition:all .1s linear;
 	transition:all .1s linear;
-	
+
 }
 a:hover,a:active{color:#a43053;
 	text-decoration: none;
@@ -66,7 +66,6 @@ h1dark {
 h3 {
 	font-weight:200;
 	font-size:30px;
-	text-align:center;
 	line-height:50px;
 	text-shadow:0 1px 1px rgba(0,0,0,0.6);
 	margin-bottom:30px;
@@ -98,7 +97,7 @@ h3 {
 	text-align:center;
 	min-height:750px;
 	padding:0 0 10px;
-	
+
 }
 
 #intro h1 {
@@ -199,7 +198,7 @@ h3 {
 }
 
 .navbar .nav li a:hover,.navbar .nav li a:focus{
-	color:#F8F8F8;	
+	color:#F8F8F8;
 }
 
 .navbar .nav > li > a:hover {
@@ -278,7 +277,7 @@ h3 {
 
 
 .thumbnail {
-	text-align:center;
+	text-align:left;
 	border:0;
 	box-shadow:none;
 	-moz-box-shadow:none;
@@ -296,21 +295,21 @@ h3 {
 	.nav-collapse .nav > li > a:hover,.nav-collapse .dropdown-menu a:hover {
 		background:none!important;
 	}
-	
+
 	.nav-collapse .nav > li > a,.nav-collapse .dropdown-menu a {
 		color:#ccc;
 	}
-	
+
 	.navbar .brand {
 		padding:8px 0 0 40px;
 	}
-	
+
 	body {
 		padding-right:0;
 		padding-left:0;
 		background-size:250%;
 	}
-	
+
 	#intro {
 	margin-top:45px;
 	}
@@ -322,7 +321,7 @@ h3 {
 		padding-left:0;
 		background-size:330%;
 	}
-	
+
 }
 
 @media (max-width: 480px) {
@@ -332,13 +331,13 @@ h3 {
 
 }
 .btn-blue {
-	
+
 }
 .btn-white {
-	
+
 	/*background-color:hsl(0,0%,90%)!important;*/
 	background-repeat:repeat-x;
-	
+
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(255,255,255,0.8)",endColorstr="#FFFFFF");
 	background-image:-khtml-gradient(linear,left top,left bottom,from(rgba(255,255,255,0.8)),to(#FFFFFF));
 	background-image:-moz-linear-gradient(top,rgba(255,255,255,0.8),#FFFFFF);
@@ -438,7 +437,7 @@ h3 {
 /* ------------------- */
 /* Section 5: Sponsors */
 /* ------------------- */
-	
+
 	#sponsors {
 		padding: 0px 0 0 0;
 		height:auto;
