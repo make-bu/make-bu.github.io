@@ -379,6 +379,12 @@ h3 {
 
 /*	Team Social Icon Styles */
 
+.org-logo{  			/*	for organizations logos */
+	width: 20.3%;
+	margin: 0 auto 0 auto;
+	position: relative;
+
+}
 
 .social{
 	text-align: center;
@@ -589,3 +595,5 @@ div.thumbnail {
 #credit {
 	float: right;
 }
+
+
