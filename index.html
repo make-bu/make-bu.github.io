@@ -9,6 +9,14 @@
   
   <link rel="canonical" href="http://make.bu.edu/"/>
   
+  <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  
+  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
 <!--   <link rel="icon" href="favicon@1x.png" type="image/png" sizes="16x16"> -->
 <!--   <link rel="icon" href="favicon@2x.png" type="image/png" sizes="128x128"> -->
 <!--   <link rel="icon" href="favicon@4x.png" type="image/png" sizes="512x512"> -->
@@ -26,7 +34,7 @@
   
   <meta property="og:url" content="http://make.bu.edu/">
   <meta property="og:type" content="">
-  <meta property="og:title" content="">
+  <meta property="og:title" content="MakeBU - Boston University">
   <meta property="og:image" content="">
   <meta property="og:description" content="">
   <meta property="og:site_name" content="MakeBU">
@@ -45,9 +53,85 @@
   
   </script>
 </head>
-<body>
-
-
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--    -->
+  <!-- NAVBAR -->
+  <div class="container navbar-top">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-border-show" id="main-navbar">  
+			<div class="container-fluid"> 
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+						<span class="sr-only">Menu</span> 
+						<span class="icon-bar"></span> 
+						<span class="icon-bar"></span> 
+						<span class="icon-bar"></span> 
+					</button>
+					<a class="navbar-brand" href="#home"><span class="navbrand">Make</span><span class="navbrand-red">BU</span></a> 
+				</div> 
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6"> 
+					<ul class="nav navbar-nav pull-right" id="nav-selectors"> 
+						<li><a class="" href="#home">Home</a></li>
+						<li><a class="" href="#about">About</a></li> 
+<!-- 						<li><a class="" href="#projects">Projects</a></li>  -->
+						<li><a class="" href="#joinus">Get Involved</a></li> 
+					</ul> 
+				</div> 
+			</div> 
+		</nav>
+	</div>
+	
+  <div class="container-fullwidth" id="home">
+    <!-- Home -->
+    <div class="row">
+      <div class="col-md-offset-1 col-md-4 col-sm-6 col-xs-12 box-normal">
+        <img class="svg-feature" src="svg/laptop.svg" onerror="this.onerror=null; this.src='img/laptop.png'"/>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12 box-normal">
+        <h1 class="feature-text">
+          Come and<br>
+          <span class="feature-text-red">Make, Hack, Create, and Learn</span><br>
+          With us
+        </h1>
+      </div>
+    </div>
+    <!-- Break -->
+    <div class="row break-block" id="about">
+      <div class="col-xs-12">
+        <h2 class="text-center"><span class="break-block-main">Who are we?</span><span class="break-block-breakline">|</span><span class="break-block-second">Makers, imagineers, students</span></h2>
+      </div>
+    </div>
+    <!--  Who are we?  -->
+    <div class="row box-normal">
+      <div class="col-md-offset-1 col-md-4 col-sm-5 col-xs-12">
+        <img class="png-feature" src="img/makebu-head.png"/>
+      </div>
+      <div class="col-md-6 col-sm-7 col-xs-12 about-text">
+        <h3>Us</h3>
+        <p>We're a student-run group of makers. We seek to create awesome projects and gain valuable and knowledge through our various events.</p>
+        <h3>You</h3>
+        <p>Innovation comes from all kinds of fields and minds. We welcome all majors and fields. In fact, we very much enjoy working on diverse teams. No matter your background, stop by and say hello!</p>
+        <h3>Together</h3>
+        <p>We want to create a strong platform for students to build stuff, along with a diverse environment filled with learning and practical experience.</p>
+      </div>
+    </div>
+    <!-- Break -->
+    <div class="row break-block" id="joinus">
+      <div class="col-xs-12">
+        <h2 class="text-center"><span class="break-block-main">Get Involved</span><span class="break-block-breakline">|</span><span class="break-block-second">We're always looking for new faces</span></h2>
+      </div>
+    </div> 
+    <!-- Join Us -->
+    <div class="row box-normal">
+      <div class="col-sm-6 col-xs-12 about-text">
+        <h3>Fall 2016 Calendar</h3>
+        <p>We're still finalizing our Fall calendar, but we expect to meet once a week. <strong>Come back soon!</strong></p>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakebu%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=133524000151621" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      </div>
+    </div>
+    
+  </div> 
 </body>
 </html>

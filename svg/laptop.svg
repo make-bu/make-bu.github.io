@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="351px" height="252px" viewBox="0 0 351 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Laptop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.4468489,204.94562 C17.7523458,203.318799 19.3443212,202 20.9974986,202 L328.002501,202 C329.657974,202 331.240773,203.33115 331.532791,204.94562 L333.180345,214.05438 C333.474597,215.681201 332.36221,217 330.713147,217 L18.1831739,217 C16.5263259,217 15.4306899,215.681997 15.7363362,214.05438 L17.4468489,204.94562 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="317.542368" height="15" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M135.571991,224.995826 C135.729694,222.788992 137.650543,221 139.855352,221 L208.988981,221 C211.196913,221 213.137388,222.783564 213.32277,224.979158 L213.664025,229.020842 C213.849579,231.21847 212.201543,233 210.001044,233 L138.998956,233 C136.790393,233 135.127456,231.216436 135.285548,229.004174 L135.571991,224.995826 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="78.4031308" height="12" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-66.000000, -168.000000)">
+            <g id="Laptop" transform="translate(66.000000, 169.000000)">
+                <polyline id="Path-4" stroke="#979797" fill="#D8D8D8" points="0.944319252 231.765268 7.09970189 197.054308 342.736948 196.734933 350.128523 231.440324 349.231123 242.209771 1.33098211 240.040881"></polyline>
+                <path d="M350.106469,231.309225 C350.106472,235.48218 345.918258,238.865028 340.760004,238.865028 L9.59866939,238.865028 C4.43675657,238.865028 0.664379386,234.700347 1,231.309225 L1,231.309225 L1,241.992091 C1,246.414737 4.57875649,250 8.99985752,250 L8.99985752,250 L340.76132,250 L342.100253,250 C346.521968,250 350.106475,246.418346 350.106473,241.992091 L350.106469,231.309225 L350.106469,231.309225 Z" id="Path-1" stroke="#979797" fill="#EFEFEF"></path>
+                <path d="M7,197.138648 L7,9.99609413 C7,4.47540378 11.4798341,0 17.0096755,0 L332.973217,0 C338.501408,0 342.982892,4.48264327 342.982892,10.001339 L342.982892,196.907023 L7,197.138648 Z" id="Path-3" stroke="#979797" fill="#202020"></path>
+                <rect id="Rectangle-6" fill="#5F5F5F" x="18" y="12" width="313" height="173"></rect>
+                <use id="Rectangle-7" stroke="#979797" mask="url(#mask-2)" stroke-width="2" fill="#9B9B9B" xlink:href="#path-1"></use>
+                <path d="M324.5,244.5 L337.5,244.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                <use id="Rectangle-5" stroke="#979797" mask="url(#mask-4)" stroke-width="2" fill="#E9E9E9" xlink:href="#path-3"></use>
+                <text id="MakeBU:~-you$-join-u" font-family="UbuntuMono-Regular, Ubuntu Mono" font-size="12" font-weight="normal" fill="#00FF00">
+                    <tspan x="27" y="31">MakeBU:~ su$</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
