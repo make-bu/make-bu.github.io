@@ -1,14 +1,5 @@
-##Dev branch
+##Master branch
 
-This branch is the active development branch for the MakeBU website.
+This branch is for hosting the MakeBU Site
 
-Development currently uses SCSS.  
-**Please do not commit changes to style.css, they will be overwritten.**
-Instead, modify style.**scss**, and use SASS to compile the raw .css file.
-
-##TODO
-
-* Add smooth scrolling (currently not working)
-* Add PNG fallback to SVG
-* Test on old Windows browsers
-* Edit content as needed
+**Please do not edit this branch, see Dev branch**
