@@ -1,3 +1,6 @@
+.row {
+  margin: 0px 0px; }
+
 .navbrand, .navbrand-red {
   color: #393939;
   font-weight: bold; }
@@ -45,9 +48,35 @@
 .feature-text-red {
   color: #D0021B; }
 
+.slide-up-down-animation {
+  animation: up-down-keys 2s ease-in-out 0s infinite;
+  transform: translate(0px, 0px);
+  display: inline-block;
+  opacity: 1;
+  font-size: 45px; }
+
+@keyframes up-down-keys {
+  0% {
+    transform: translate(0px, -100px);
+    opacity: 0; }
+  15% {
+    transform: translate(0px, 0px);
+    opacity: 1; }
+  85% {
+    transform: translate(0px, 0px);
+    opacity: 1; }
+  100% {
+    transform: translate(0px, 100px);
+    opacity: 0; } }
 .about-text p {
   font-size: 1.3em; }
 
+#facebook-page-iframe {
+  width: 340px; }
+
+@media (max-width: 500px) {
+  #facebook-page-iframe {
+    width: 280px; } }
 .break-block {
   background-color: #D0021B;
   min-height: 10vh;

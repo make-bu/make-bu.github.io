@@ -34,6 +34,10 @@ body {
 
 }
 
+.row {
+  margin: 0px 0px;
+}
+
 // Navbar styling
 // For color styling, see bottom of doc
 .navbrand { 
@@ -78,9 +82,47 @@ body {
   color: $buRed;
 }
 
+.slide-up-down-animation {
+  //4s must be matches in script (4000 ms there)
+  animation: up-down-keys 2s ease-in-out 0s infinite;
+  transform: translate(0px,0px);
+  display: inline-block;
+  opacity: 1;
+  font-size: 45px;
+}
+
+@keyframes up-down-keys {
+  0% {
+    transform: translate(0px,-100px);
+    opacity: 0;
+  }
+  15% {
+    transform: translate(0px,0px);
+    opacity: 1;
+  }
+  85% {
+    transform: translate(0px,0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0px,100px);
+    opacity: 0;
+  }
+}
+
 //About
 .about-text p {
   font-size: 1.3em;
+}
+
+//Get Involved
+#facebook-page-iframe {
+  width: 340px;
+}
+@media(max-width: 500px) {
+  #facebook-page-iframe {
+    width: 280px;
+  }
 }
 
 //Break element (red page-spanning block)
