@@ -1,232 +1,138 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:fb="http://ogp.me/ns/fb#">
+  xmlns:fb="http://ogp.me/ns/fb#">
 <head>
-    <title>MakeBU - BU's Annual Overnight Hackathon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BU Hackathon">
-    <meta name="author" content="MakeBU">
-    <meta property="og:image" content="http://make.bu.edu/img/makebu.png" />
-    <meta property="og:description" content="Join us for BU's annual overnight hackathon! Make, hack, innovate and create with other students for 24 hours. Build something cool, eat free food, meet new people, and compete to win cash prizes." />
-    <meta property="og:name" content="MakeBU - BU's Overnight Hackathon" />
-    <meta property="og:url" content="http://make.bu.edu" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>MakeBU at Boston University</title>
+  <meta name="description" content="MakeBU is a student-run organization at Boston University that is focused on creating projects and gaining experience in various fields of technology.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="canonical" href="http://make.bu.edu/"/>
+  
+  <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  
+  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
+  <link rel="icon" href="img/fav-1x.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="img/fav-2x.png" type="image/png" sizes="128x128">
+  <link rel="icon" href="img/fav-4x.png" type="image/png" sizes="512x512">
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  
+  <!-- 	SEO -->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <meta itemprop="name" content="MakeBU at Boston University">
+  <meta itemprop="description" content="MakeBU is a student-run organization at Boston University that is focused on creating projects and gaining experience in various fields of technology.">
+  <meta itemprop="image" content="img/makebu-head.png">
+  
+  <meta property="og:url" content="http://make.bu.edu/">
+  <meta property="og:type" content="Website">
+  <meta property="og:title" content="MakeBU at Boston University">
+  <meta property="og:image" content="img/makebu-head.png">
+  <meta property="og:description" content="MakeBU is a student-run organization at Boston University that is focused on creating projects and gaining experience in various fields of technology.">
+  <meta property="og:site_name" content="MakeBU">
+  <meta property="og:locale" content="en_US">
+	
+  <!-- 	GA -->
 
-  ga('create', 'UA-59425523-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-67825496-6', 'auto');
+    ga('send', 'pageview');
+  
+  </script>
 </head>
-<body>
-
-  <!-- Navbar -->
-
-    <!-- end Navbar -->
-
-
-    <!-- #intro -->
-	<div class="main-container">
-		<div class="container-fluid" id="intro">
-			<div class="containerIntro">
-				<div class = "thumbnail">
-					<img alt="" src="img/logo.png" width="272" height="171">
-				</div>
-				<div class="row span8 center">
-						<h1>March 28-29, 1pm</h1>
-				</div>
-
-                <div id="signup-container">
-<iframe src="//eventbrite.com/tickets-external?eid=15660853033&ref=etckt" frameborder="0" height="260" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe>
-
-				</div>
-		</div>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--    -->
+  <!-- NAVBAR -->
+  <div class="container navbar-top">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-border-show" id="main-navbar">  
+			<div class="container-fluid"> 
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+						<span class="sr-only">Menu</span> 
+						<span class="icon-bar"></span> 
+						<span class="icon-bar"></span> 
+						<span class="icon-bar"></span> 
+					</button>
+					<a class="navbar-brand" href="#home"><span class="navbrand">Make</span><span class="navbrand-red">BU</span></a> 
+				</div> 
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6"> 
+					<ul class="nav navbar-nav pull-right" id="nav-selectors"> 
+						<li><a class="" href="#home">Home</a></li>
+						<li><a class="" href="#about">About</a></li> 
+<!-- 						<li><a class="" href="#projects">Projects</a></li>  -->
+						<li><a class="" href="#joinus">Get Involved</a></li> 
+					</ul> 
+				</div> 
+			</div> 
+		</nav>
 	</div>
-
-    <!-- ends Intro -->
-
-     <!-- #about -->
-<div class="container-fluid" id="about">
-	<div class="container light" id="info">
-
-		<h1>BU's overnight hackathon</h1>
-		<div class="thumbnail" style="width:60%; margin: 0 auto;">
-		  <span style="width: 50%; margin: 30px auto; font-size: 1.3em; line-height: 1.5em; text-align: center">
-		      <p>Join us for BU's annual overnight hackathon! Make, hack, innovate and create with other students for 24 hours. Build something cool, eat free food, meet new people, and compete to win cash prizes. It's all happening on March 28 at BU's new Engineering and Product Innovation Center.</p>
-		  </span>
-		</div>
-		<h1></h1>
-		<ul class="thumbnails">
-	<!-- BEGIN SECOND ROW -->
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>What is a hackathon?</h3>
-		      <h5>A weekend collaborative competition to build something.
-		      Join with a team and build a web, mobile, hardware, or physical product. More
-		      <a href="https://medium.com/hackathons-anonymous/92668579601">here</a>.</h5>
-		    </div>
-		  </li>
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>Who can attend?</h3>
-		      <h5>Any student. While we can't reimburse you for travel, we'll provide free food and drink. We'll have limited sleeping space, so come rested or plan to stay with a friend if you're not local.</h5>
-		    </div>
-		  </li>
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>Why should I come?</h3>
-		      <h5>You'll meet other hackers and have lots of fun! And of course you can brag about your project to employers and friends.</h5>
-		    </div>
-		  </li>
-	<!-- END SECOND ROW -->
-	<!-- BEGIN THIRD ROW -->
-		  <li class="span12">
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>What's provided?</h3>
-		      <h5>Food, snacks, drinks, caffeine, power and Internet access. Although EPIC has machinery, it won't be available for use.</h5>
-		    </div>
-		  </li>
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>What can I make?</h3>
-		      <h5>Our only restriction is that you cannot use existing work (e.g. code/designs) if participating for prizes. You can only use open source code or designs (i.e. things anyone can freely access).</h5>
-		    </div>
-		  </li>
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>What should I bring?</h3>
-		      <h5>Computers, phones, tablets, circuit boards, microprocessors, and anything else you might need </h5>
-		    </div>
-		  </li>
-		  </li>
-		  <!-- BEGIN FOURTH ROW -->
-		  <li class="span12">
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>How big are teams?</h3>
-		      <h5>Usually 2-4 people, but you can work alone or with a larger team. Teams larger than 4 will be ineligible for prizes.</h5>
-		    </div>
-		  </li>
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>Are there sponsors?</h3>
-		      <h5>Yes! See below. Interested in sponsoring? <a href="mailto:makebu@bu.edu">Contact us!</a></h5>
-		    </div>
-		  </li>
-		  <li class="span4">
-		    <div class="thumbnail">
-		      <h3>I still have questions.</h3>
-		      <h5><a href="mailto:makebu@bu.edu">Contact us!</a></h5>
-		    </div>
-		  </li>
-		  </li>
-
-		  <li class="span12">
-		  	<h1>Schedule</h1>
-		  	<div class="row span12 center">
-		  		<table align="center" style="margin: 0px auto;">
-		  			<tr>
-		  				<td>1 pm</td>
-		  				<td>Opening in <a href="http://www.bu.edu/maps/?id=30">CAS B12</a></td>
-		  			</tr>
-		  			<tr>
-		  				<td>2 pm</td>
-		  				<td>Move to <a href="http://www.bu.edu/maps/?id=3690">EPIC</a>. Hacking starts!</td>
-		  			</tr>
-		  			<tr>
-		  				<td>6:15 pm</td>
-		  				<td>Dinner</td>
-		  			</tr>
-		  			<tr>
-		  				<td>12 am</td>
-		  				<td>Midnight snack</td>
-		  			</tr>
-		  			<tr>
-		  				<td>7:30 am</td>
-		  				<td>Breakfast</td>
-		  			</tr>
-		  			<tr>
-		  				<td>11 am</td>
-		  				<td>Hacks must be turned in. Lunch.</td>
-		  			</tr>
-		  			<tr>
-		  				<td>12 pm</td>
-		  				<td>Judging</td>
-		  			</tr>
-		  			<tr>
-		  				<td>2 pm</td>
-		  				<td>Awards</td>
-		  			</tr>
-		  		</table>
-		  	</div>
-		  </li>
-
-
-		  	<li class="span12">
-		  		<h1>Sponsored By</h1>
-  				<li class = "span12" style="text-align:center">
-					<a href="http://www.bu.edu/ece/"><img src="img/ece.gif" style="width: 600px; margin-bottom:20px;"></a>
-				</li>
-  				<li class = "span6" style="margin-top:50px; text-align:center;">
-					<a href="http://www.bu.edu/eng/"><img src="img/eng.gif" style="width:300px; margin-bottom:20px;"></a>
-				</li>
-  				<li class = "span6" style="margin-top:50px; text-align:center;">
-					<a href="http://www.inwatch.cc/home/"><img src="img/inwatch.jpg"></a>
-				</li>
-				<li class = "span6" style="margin-top:50px; text-align:center;">
-					<a href="http://www.google.com/"><img src="img/google.png" style="width:300px; margin-bottom:20px;"></a>
-				</li>
-  				<li class = "span6" style="margin-top:80px; text-align:center;">
-					<a href="http://downty.me"><img src="img/downtyme.png" style="width:300px; margin-bottom:20px;"></a>
-				</li>
-  				<li class = "span6" style="margin-top:50px; text-align:center;">
-					<a href="http://www.alt-options.com/"><img src="img/altoptions.png" style="width:300px; margin-bottom:50px;"></a>
-				</li>
-  				<li class = "span6" style="margin-top:50px; text-align:center;">
-  					<a href="http://www.bu.edu/cs/"><img src="img/cs.png" style="width:300px; margin-top:-10px;"></a>
-				</li>
-			</li>
-
-			<li class="span12" style="margin-bottom:30px">
-				<h1>Organized By</h1>
-				<li class="span3" style="text-align:center; margin-top:50px;">
-					<a href="http://builds.cc/"><img src="img/builds.png" style="width:200px;"></a>
-				</li>
-				<li class="span3" style="text-align:center">
-					<a href="http://globalappinitiative.org/"><img src="img/GAI-logo.png" style="width:200px"></a>
-				</li>
-				<li class="span3" style="text-align:center">
-					<a href="http://terrapincomputing.com/"><img src="img/terrapin.jpg" style="width:200px;"></a>
-				</li>
-				<li class="span3" style="text-align:center; margin-top:50px;">
-					<a href="http://dormroomfund.com/"><img src="img/drf.png" style="width:200px;"></a>
-				</li>
-				<li class="span3" style="text-align:center; margin-top:50px;">
-					<a href="http://bufoodapp.com"><img src="img/bu_foods.png" style="width:200px;"></a>
-				</li>
-			</li>
-		</ul>
-	<hr>
-	<div id="credit">Background image credit Barron Roth Photography</div>
-</div>
-     <!-- ends About -->
+	
+  <div class="container-fullwidth" id="home">
+    <!-- Home -->
+    <div class="row">
+      <div class="col-md-offset-1 col-md-4 col-sm-6 col-xs-12 box-normal">
+        <img class="svg-feature" src="svg/laptop.svg" onerror="this.onerror=null; this.src='img/laptop.png'"/>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12 box-normal">
+        <h1 class="feature-text">
+          Come and<br>
+          <span class="feature-text-red" id="scroll-verbs">Make, Hack, Create, and Learn</span><br>
+          With us
+        </h1>
+      </div>
+    </div>
+    <!-- Break -->
+    <div class="row break-block" id="about">
+      <div class="col-xs-12">
+        <h2 class="text-center"><span class="break-block-main">Who are we?</span><span class="break-block-breakline">|</span><span class="break-block-second">Makers, imagineers, students</span></h2>
+      </div>
+    </div>
+    <!--  Who are we?  -->
+    <div class="row box-normal">
+      <div class="col-md-offset-1 col-md-4 col-sm-5 col-xs-12">
+        <img class="png-feature" src="img/makebu-head.png"/>
+      </div>
+      <div class="col-md-6 col-sm-7 col-xs-12 about-text">
+        <h3>Us</h3>
+        <p>We're a student-run group of makers that build awesome projects. We also bring in mentors from various fields and companies so we can learn from their experience and expertise.</p>
+        <h3>You</h3>
+        <p>Innovation comes from all kinds of fields and minds. We welcome all majors. In fact, we very much enjoy working in diverse teams. No matter your background, stop by and say hello!</p>
+        <h3>Together</h3>
+        <p>We want to create a strong platform for students to work on projects and gain practical experience, supplemented by interacting with mentors in our fields of interest.</p>
+      </div>
+    </div>
+    <!-- Break -->
+    <div class="row break-block" id="joinus">
+      <div class="col-xs-12">
+        <h2 class="text-center"><span class="break-block-main">Get Involved</span><span class="break-block-breakline">|</span><span class="break-block-second">We're always looking for new faces</span></h2>
+      </div>
+    </div> 
+    <!-- Join Us -->
+    <div class="row box-normal">
+      <div class="col-sm-6 col-xs-12 about-text">
+        <h3>Fall 2016 Calendar</h3>
+        <p>We're still finalizing our Fall calendar, but we expect to meet once a week. <strong>Come back soon!</strong></p>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <h4>Like our Facebook page to receive updates on upcoming events.</h4>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakebu%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=133524000151621" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" id="facebook-page-iframe"></iframe>
+      </div>
+    </div>
+    
+  </div> 
 </body>
 </html>
