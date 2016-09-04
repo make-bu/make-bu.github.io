@@ -125,6 +125,24 @@ body {
   }
 }
 
+.event-table {
+  width: 90%;
+  font-size: 1.4em;
+}
+
+.event-table td {
+  padding-bottom: 2em;
+}
+
+.event-table-date {
+  font-weight: bold;
+  text-align: right;
+}
+
+.event-table-title {
+  
+}
+
 //Break element (red page-spanning block)
 .break-block {
   background-color: $buRed;
@@ -165,6 +183,17 @@ body {
   }
   .break-block-main {
     padding:0px 0px;
+  }
+}
+
+//Special sizing
+
+@media(min-width:767px) {
+  #join-us-next-to-fb {
+    width: calc(100% - 350px);
+  }
+  #fb-side-box {
+    width: 350px;
   }
 }
 
