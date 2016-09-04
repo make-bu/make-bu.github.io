@@ -77,6 +77,17 @@
 @media (max-width: 500px) {
   #facebook-page-iframe {
     width: 280px; } }
+.event-table {
+  width: 90%;
+  font-size: 1.4em; }
+
+.event-table td {
+  padding-bottom: 2em; }
+
+.event-table-date {
+  font-weight: bold;
+  text-align: right; }
+
 .break-block {
   background-color: #D0021B;
   min-height: 10vh;
@@ -110,6 +121,12 @@
 
   .break-block-main {
     padding: 0px 0px; } }
+@media (min-width: 767px) {
+  #join-us-next-to-fb {
+    width: calc(100% - 350px); }
+
+  #fb-side-box {
+    width: 350px; } }
 .svg-feature {
   padding: 2em 0em;
   width: 100%; }

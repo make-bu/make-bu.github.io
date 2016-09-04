@@ -24,7 +24,7 @@
                 <path d="M324.5,244.5 L337.5,244.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
                 <use id="Rectangle-5" stroke="#979797" mask="url(#mask-4)" stroke-width="2" fill="#E9E9E9" xlink:href="#path-3"></use>
                 <text id="MakeBU:~-you$-join-u" font-family="UbuntuMono-Regular, Ubuntu Mono" font-size="12" font-weight="normal" fill="#00FF00">
-                    <tspan x="27" y="31">MakeBU:~ su$</tspan>
+                    <tspan x="27" y="31">MakeBU:~$</tspan>
                 </text>
             </g>
         </g>
