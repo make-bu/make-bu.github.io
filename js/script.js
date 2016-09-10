@@ -36,3 +36,4 @@ $(document).ready(function() {
   setInterval(function(){scrollHeroFn()}, 2000); //then repeat
   
 });
+
