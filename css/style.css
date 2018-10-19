@@ -124,8 +124,9 @@
 #footer {
   background-color: #000000;
   padding: 2em;
-  box-shadow: inset 1px 3px 3px 0px #242424;
-  margin: auto 0; }
+  box-shadow: inset 1px 3px 3px 0px #000;
+  margin: auto 0;
+  width: 150px;}
 
 #home
 
