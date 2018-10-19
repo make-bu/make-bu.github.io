@@ -36,15 +36,15 @@ $shadow-c: #909090;
 
 .anchor {
   //yoho yoho bootstrap fucks this up
-  display: block; 
-  position: relative; 
+  display: block;
+  position: relative;
   top: -50px;
   visibility: hidden;
 }
 
 // Navbar styling
 // For color styling, see bottom of doc
-.navbrand { 
+.navbrand {
   color: #393939;
   font-weight: bold;
 }
@@ -56,11 +56,11 @@ $shadow-c: #909090;
   margin-bottom: 50px;
 }
 
-//Box positioning 
+//Box positioning
 .box-vert-center {
   @include flexbox();
   @include flex-direction(column);
-  @include justify-content(center); 
+  @include justify-content(center);
   @include align-items(center);
 }
 .box-vert-center > * {
@@ -68,12 +68,12 @@ $shadow-c: #909090;
   min-height: 70vh;
 }
 
-.box-normal { 
+.box-normal {
   padding: 2em 3em;
 }
 
 @media(max-width:767px) {
-  .box-normal { 
+  .box-normal {
     padding: 1em 3em;
   }
 }
@@ -152,7 +152,7 @@ $shadow-c: #909090;
 }
 
 .event-table-title {
-  
+
 }
 
 //footer
@@ -181,7 +181,7 @@ $shadow-c: #909090;
   font-style: italic;
   font-weight: normal;
   padding-right: 20px;
-  
+
   font-size: 35px;
 }
 
@@ -189,14 +189,14 @@ $shadow-c: #909090;
   color: white;
   font-weight: normal;
   padding-left: 20px;
-  
+
   font-size: 25px;
 }
 
 .break-block-breakline {
   color: white;
   font-weight: normal;
-  
+
   font-size: 35px;
 }
 @media(max-width:767px) {
@@ -306,7 +306,7 @@ $nav-mob-dark: #d8d8d8;
   color: $nav-primc;
   background-color: transparent;
 }
-// When we hover on an active element, color it 
+// When we hover on an active element, color it
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: $nav-primc;
@@ -346,8 +346,8 @@ $nav-mob-dark: #d8d8d8;
 }
 
 @media (max-width: 767px) {
-//	We don't want the list items pulled right if on mobile 
-	.pull-right { 
+//	We don't want the list items pulled right if on mobile
+	.pull-right {
 	  float: none !important;
 	}
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -363,7 +363,7 @@ $nav-mob-dark: #d8d8d8;
     color: $nav-darkc;
     background-color: $nav-mob-light;
   }
-  
+
   .navbar-default .navbar-collapse {
 	  background-color: $nav-mob-light;
   }
