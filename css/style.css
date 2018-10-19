@@ -8,6 +8,18 @@
   top: -50px;
   visibility: hidden; }
 
+  #about-text {
+    font-family: "Europa";
+    color: #fff;
+    background-color: #000;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: -50px;
+
+
+
+  }
+
 .navbrand, .navbrand-red {
   color: #393939;
   font-weight: bold; }
@@ -83,8 +95,9 @@
 .about-text p {
   font-family: "Europa", sans-serif;
   font-size: 1.3em;
-  color: #fff; }
-
+  color: #fff;
+  margin-bottom: -20px;
+}
 #facebook-page-iframe {
   width: 340px; }
 
@@ -153,12 +166,23 @@
 
   .break-block-main {
     padding: 0px 0px; } }
+
+    #join-us{
+      color: #fff;
+      font-size: 50px;
+    }
 @media (min-width: 767px) {
   #join-us-next-to-fb {
-    width: calc(100% - 350px); }
+    /* width: calc(100% - 350px); */
+    font-family: "Europa", sans-serif;
+    margin-top: 90px;
+  }
+
+
 
   #fb-side-box {
-    width: 350px; } }
+    width: 350px;
+    margin-top: 100px;} }
 .jpg-feature {
   /* padding: 2em 0em; */
   background: no-repeat center center;
@@ -186,7 +210,7 @@
 
 .png-feature-2 {
   width: 70%;
-  margin-left: 0px;
+  margin-left: 100px;
   margin-top: 70px;
 }
 
@@ -340,7 +364,9 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
   vertical-align: top; }
 
 #mc_embed_signup label {
+  color: white;
   display: block;
+  font-family: "Europa";
   font-size: 16px;
   padding-bottom: 10px;
   font-weight: bold; }
@@ -357,7 +383,8 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
   border-radius: 3px;
   letter-spacing: .03em;
   color: #fff;
-  background-color: #aaa;
+  font-family: "Europa";
+  background-color: red;
   box-sizing: border-box;
   height: 32px;
   line-height: 32px;
@@ -419,5 +446,11 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 #titles {
   color: red;
   font-family: "Europa", sans-serif;
+  margin-top: 100px;
+}
+
+#updates{
+  font-family: "Europa", sans-serif;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
