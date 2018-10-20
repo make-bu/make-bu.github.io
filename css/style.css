@@ -62,15 +62,14 @@
   .box-normal {
     padding: 1em 3em; } }
 .feature-text {
-  color: rgb(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
   font-family: "Europa", sans-serif;
   font-weight: bold;
   text-align: center;
-  margin-top: -200px;
-  margin-bottom: 200px;}
+  display: block;}
 
 .feature-text-red {
-  color: rgb(255, 255, 255); }
+  color: rgb(255, 0, 0); }
 
 .slide-up-down-animation {
   animation: up-down-keys 2s ease-in-out 0s infinite;
@@ -188,7 +187,7 @@
   /* padding: 2em 0em; */
   background: no-repeat center center;
   background-size:cover;
-  margin-top: -125px;
+  margin-top: -50px;
   min-height: 100%;
   width: 100%; }
 
@@ -211,7 +210,7 @@
 
 .png-feature-2 {
   width: 70%;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 70px;
 }
 
